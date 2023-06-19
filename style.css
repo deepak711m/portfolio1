@@ -1,0 +1,115 @@
+.navbar-light .navbar-brand {
+    /* background-color: 	#FFFAF0; */
+    font-family: "Playfair Display";
+    font-size: 1.2em;
+}
+.navbar-nav {
+    display: flex;
+    margin: auto;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.6rem;
+    padding-left: 0.5rem;
+    font-family: "Playfair Display", open-sans;
+    font-size: 1.2em;
+}
+nav {
+    position: fixed !important;
+    width: 100%;
+    /* font-family: "playfair Display"; */
+    z-index: 1;
+}
+
+.bg-light {
+    /* background-color: #E1EBEE!important; */
+    background-color: #f5f5f5;
+}
+
+.home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    background-color: #e1ebee !important;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+div .col {
+    height: 300%;
+}
+img {
+    border-radius: 10px;
+    width: 70%;
+    height: 120%;
+    display: inline;
+    margin: 5% 10%;
+    /* box-shadow: 10px 10px #0070bb; */
+}
+
+div .col {
+    height: 300%;
+}
+div .col-text {
+    align-items: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
+div .skill {
+    height: 50px;
+    width: 50px;
+}
+p {
+    text-align: center;
+}
+.about p {
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+h1 {
+    font-size: 48px;
+}
+.about,
+.skills,
+.education,
+.projects,
+.contact {
+    padding-top: 25px;
+}
+.skills img {
+    height: 80px;
+    width: 80px;
+}
+.social-links {
+    display: flex;
+    justify-content: center;
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+#resume {
+    width: 100px;
+    height: 40px;
+    border: #efe8db;
+    /* box-shadow: 3px 3px grey; */
+    background-color: #f45c5c;
+
+    font-family: "Kanit", sans-serif;
+    /* font-weight: 00; */
+    font-weight: bolder;
+    font-size: 18px;
+}
+.col-text {
+    font-size: larger;
+}
