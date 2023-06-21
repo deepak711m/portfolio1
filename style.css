@@ -112,4 +112,8 @@ h1 {
 }
 .col-text {
     font-size: larger;
+    margin: 100px;
+}
+.row {
+    display: flex;
 }
