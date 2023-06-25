@@ -6,32 +6,80 @@
 .navbar-nav {
     display: flex;
     margin: auto;
+    justify-content: space-between;
 }
-
+.navbar-custom {
+    background-color: #ff0000 !important ; /* Specify your custom color */
+    /* Additional styles if needed */
+}
+.rightsection-header {
+    display: flex;
+    justify-content: right;
+    position: relative;
+}
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1.6rem;
     padding-left: 0.5rem;
     font-family: "Playfair Display", open-sans;
     font-size: 1.2em;
 }
+header {
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
 nav {
+    padding: 0;
+    margin-top: 0;
     position: fixed !important;
     width: 100%;
+    display: flex;
+    justify-content: space-between !important ;
+    align-items: center;
     /* font-family: "playfair Display"; */
     z-index: 1;
 }
-
-.bg-light {
-    /* background-color: #E1EBEE!important; */
-    background-color: #f5f5f5;
+.navbar-brand {
+    font-size: 28px;
+    margin: auto;
+    padding: auto;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: larger;
+}
+.rightsection-header {
+    justify-content: right;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* height:rem; */
+}
+.edu1,
+.edu2,
+.edu3 {
+    background-color: #9bc8f5;
+    margin: auto;
+    margin-top: 2%;
+    width: 32%;
+    /* height: 40%; */
+    border-radius: 15px;
+}
+nav ul li {
+    list-style: none;
+    margin-left: 10px;
+}
+nav ul li:hover {
+    font-size: 1.02rem;
 }
 
 .home {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-color: #f5f5f5;
-    background-color: #e1ebee !important;
+    background-color: #9bc8f5 !important;
+}
+body {
+    background-color: #6ec2e4;
 }
 .container {
     display: flex;
@@ -84,7 +132,20 @@ h1 {
 .education,
 .projects,
 .contact {
-    padding-top: 25px;
+    padding-top: 65px;
+}
+.education {
+    height: 40%;
+}
+.skills {
+    margin: 40px 40px auto;
+    padding-top: 65px;
+    padding-bottom: 40px;
+}
+.skill-pics {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
 }
 .skills img {
     height: 80px;
@@ -98,22 +159,19 @@ h1 {
 .social-links a {
     margin: 0 10px;
 }
-#resume {
-    width: 100px;
-    height: 40px;
-    border: #efe8db;
-    /* box-shadow: 3px 3px grey; */
-    background-color: #f45c5c;
-
-    font-family: "Kanit", sans-serif;
-    /* font-weight: 00; */
-    font-weight: bolder;
-    font-size: 18px;
-}
 .col-text {
     font-size: larger;
     margin: 100px;
 }
 .row {
     display: flex;
+}
+
+.proj-1,
+.proj-2 {
+    background-color: #9bc8f5;
+    margin: auto;
+    margin-top: 2%;
+    width: 32%;
+    border-radius: 15px;
 }
